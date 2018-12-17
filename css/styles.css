@@ -23,12 +23,29 @@ a:hover {
   text-decoration: none;
 }
 
-
-/* typography */
-h1, h2, h3, h4, h5, h6, p, ul {
-  margin-bottom: 0;
+.mb1 {
+  margin-bottom: 10px;
 }
 
+.mb2 {
+  margin-bottom: 20px;
+}
+
+.mb3 {
+  margin-bottom: 30px;
+}
+
+
+/* typography */
+h1, h2, h3, h4, h5, h6, ul {
+  margin-bottom: 0;
+  letter-spacing: 1.6px;
+}
+
+p {
+  font-size: 1.6rem;
+  letter-spacing: 1.4px;
+}
 
 
 /* navigation */
@@ -61,7 +78,7 @@ nav ul li {
 .brand {
   font-size: 4rem;
   color: #ecdfe7;
-  letter-spacing: 1.5px;
+  font-weight: 700;
 }
 
 .brand:hover {
@@ -70,6 +87,7 @@ nav ul li {
 
 .nav-link {
   font-size: 1.8rem;
+  font-weight: 400;
   color: #ecdfe7;
   letter-spacing: 0.6px;
   transition: 0.3s;
@@ -84,4 +102,31 @@ nav ul li {
 .hero-container {
   background-image: url("../img/wallhaven-634721.jpg");
   height: 100vh;
+}
+
+.hero-caption {
+  position: absolute;
+  bottom: 400px;
+  right: 400px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.initials {
+  color: #f9cd48;
+}
+
+.gallery-btn {
+  width: 180px;
+  font-size: 1.8rem;
+  padding: 5px 15px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  border: 1px solid white;
+  transform: 0.3s;
+}
+
+.gallery-btn:hover {
+  background-color: #ecdfe7;
+  color: #000;
 }
