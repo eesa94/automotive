@@ -15,7 +15,6 @@ body {
 .background-image {
   background-size: cover;
   background-position: center;
-  background-attachment: scroll;
   background-repeat: no-repeat;
 }
 
@@ -140,6 +139,12 @@ nav ul li {
 
 /* welcome */
 .welcome {
-  height: 300px;
+  height: 400px;
   padding: 50px 0;
+}
+
+.parallax {
+  height: 500px;
+  background: url("../img/gt86_crop.jpg");
+  background-repeat: no-repeat;
 }
