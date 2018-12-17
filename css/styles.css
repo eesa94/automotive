@@ -3,6 +3,10 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  font-family: 'Orbitron', sans-serif;
+}
+
 .container-fluid {
   padding-left: 0;
   padding-right: 0;
@@ -14,6 +18,17 @@ html {
   background-attachment: scroll;
   background-repeat: no-repeat;
 }
+
+a:hover {
+  text-decoration: none;
+}
+
+
+/* typography */
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin-bottom: 0;
+}
+
 
 
 /* navigation */
@@ -27,9 +42,34 @@ nav {
   z-index: 100;
 }
 
+.inner-menu {
+  max-width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  padding-inline-start: 0;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin-right: 6px;
+}
+
+.nav-link {
+  font-size: 1.8rem;
+}
+
+
+.brand {
+  font-size: 4rem;
+}
+
 
 /* hero */
 .hero-container {
-  background-image: url("../img/gt86_blue.jpg");
+  background-image: url("../img/wallhaven-634721.jpg");
   height: 100vh;
 }
