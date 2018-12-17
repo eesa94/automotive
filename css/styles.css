@@ -38,7 +38,7 @@ nav {
   left: 0;
   right: 0;
   height: 80px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.64);
   z-index: 100;
 }
 
@@ -58,13 +58,25 @@ nav ul li {
   margin-right: 6px;
 }
 
-.nav-link {
-  font-size: 1.8rem;
-}
-
-
 .brand {
   font-size: 4rem;
+  color: #ecdfe7;
+  letter-spacing: 1.5px;
+}
+
+.brand:hover {
+  color: #ecdfe7;
+}
+
+.nav-link {
+  font-size: 1.8rem;
+  color: #ecdfe7;
+  letter-spacing: 0.6px;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #f9cd48;
 }
 
 
