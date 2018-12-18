@@ -53,7 +53,7 @@ nav {
   top: 0;
   left: 0;
   right: 0;
-  height: 80px;
+  height: 70px;
   padding: 0 30px;
   background-color: rgba(0, 0, 0, 0.64);
   z-index: 100;
@@ -76,7 +76,7 @@ nav ul li {
 }
 
 .brand {
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: #ecdfe7;
   font-weight: 700;
 }
@@ -106,6 +106,8 @@ nav ul li {
 }
 
 .overlay {
+  height: 100%;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -140,11 +142,32 @@ nav ul li {
 /* about */
 .about {
   height: 400px;
-  padding: 50px 0;
+  padding: 100px 0 50px;
 }
 
-.parallax {
-  height: 500px;
+.about-header {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+
+/* services */
+.services {
+  height: 900px;
   background: url("../img/gt86_crop.jpg");
   background-repeat: no-repeat;
+  margin-bottom: 1000px;
+}
+
+.overlay-dark {
+  height: 100%;
+  width: 100%;
+  padding: 110px 0 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.services-header {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #ecdfe7;
 }
