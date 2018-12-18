@@ -14,4 +14,14 @@ $(document).ready(function(){
     }
     return false;
   });
+
+  $('.box').hover(
+      function() {
+        $(this).css('opacity', '0.6')
+      },
+      function() {
+        $(this).css('opacity', '1')
+      }
+  );
+
 });
