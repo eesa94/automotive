@@ -4,7 +4,6 @@ html {
 }
 
 body {
-  font-family: 'Orbitron', sans-serif;
 }
 
 .container-fluid {
@@ -36,14 +35,45 @@ a:hover {
 
 
 /* typography */
+.orbitron-4 {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 400;
+}
+
+.orbitron-5 {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 500;
+}
+
+.orbitron-7 {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+}
+
+.raleway-4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.raleway-6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
 h1, h2, h3, h4, h5, h6, ul {
   margin-bottom: 0;
   letter-spacing: 1.6px;
 }
 
 p {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   letter-spacing: 1.4px;
+}
+
+.default-text {
+  font-size: 1.6rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
 }
 
 
@@ -89,6 +119,7 @@ nav ul li {
 }
 
 .nav-link {
+  font-family: 'Orbitron', sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
   color: #ecdfe7;
@@ -150,7 +181,6 @@ nav ul li {
 
 .about-header {
   font-size: 3rem;
-  font-weight: 700;
 }
 
 
