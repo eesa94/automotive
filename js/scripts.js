@@ -36,7 +36,7 @@ $(document).ready(function(){
     $('.box').hover(
         function() {
             $('.service-icon', this).css('opacity', '0.15');
-            $('.box-text', this).css('bottom', '20%').css('opacity', '1');
+            $('.box-text', this).css('bottom', '30%').css('opacity', '1');
         },
         function() {
             $('.service-icon', this).css('opacity', '1');
