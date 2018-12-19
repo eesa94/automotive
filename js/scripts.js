@@ -35,13 +35,11 @@ $(document).ready(function(){
     // box hover
     $('.box').hover(
         function() {
-            $('.service-icon', this).css('opacity', '0');
-            $('.box-header', this).css('opacity', '1');
-            $('.box-text', this).css('bottom', '40%').css('opacity', '1');
+            $('.service-icon', this).css('opacity', '0.15');
+            $('.box-text', this).css('bottom', '20%').css('opacity', '1');
         },
         function() {
             $('.service-icon', this).css('opacity', '1');
-            $('.box-header', this).css('opacity', '0');
             $('.box-text', this).css('bottom', '0').css('opacity', '0');
         }
     );

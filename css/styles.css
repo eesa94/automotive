@@ -233,10 +233,10 @@ nav ul li {
   position: absolute;
   left: 5%;
   right: 5%;
-  top: 13%;
+  top: 5%;
   font-family: 'Orbitron', sans-serif;
   font-weight: 700;
-  opacity: 0;
+  opacity: 1;
   transition: 0.3s;
 }
 
@@ -249,6 +249,8 @@ nav ul li {
   left: 10%;
   right: 10%;
   bottom: 0;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 400;
   opacity: 0;
   transition: 0.3s;
 }
