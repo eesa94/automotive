@@ -56,6 +56,7 @@ nav {
   height: 80px;
   padding: 0 30px;
   background-color: rgba(0, 0, 0, 0.64);
+  transition: 0.4s;
   z-index: 100;
 }
 
@@ -79,6 +80,7 @@ nav ul li {
   font-size: 3.5rem;
   color: #ecdfe7;
   font-weight: 700;
+  transition: 0.4s;
 }
 
 .brand:hover {
@@ -108,7 +110,7 @@ nav ul li {
 .overlay {
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .hero-caption {
@@ -141,7 +143,7 @@ nav ul li {
 
 /* about */
 .about {
-  height: 400px;
+  height: 600px;
   padding: 100px 0 50px;
 }
 
@@ -163,7 +165,7 @@ nav ul li {
   height: 100%;
   width: 100%;
   padding: 110px 0 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .services-header {
