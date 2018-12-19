@@ -3,9 +3,6 @@ html {
   font-size: 62.5%;
 }
 
-body {
-}
-
 .container-fluid {
   padding-left: 0;
   padding-right: 0;
@@ -69,6 +66,14 @@ p {
   font-size: 1.4rem;
   letter-spacing: 1.4px;
 }
+
+.section-header {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
 
 .default-text {
   font-size: 1.6rem;
@@ -189,7 +194,6 @@ nav ul li {
   height: 900px;
   background: url("../img/gt86_crop.jpg");
   background-repeat: no-repeat;
-  margin-bottom: 1000px;
 }
 
 .overlay-dark {
@@ -200,10 +204,7 @@ nav ul li {
 }
 
 .services-header {
-  font-size: 4rem;
-  font-weight: 700;
   color: #ecdfe7;
-  margin-bottom: 50px;
 }
 
 .service-row {
@@ -216,4 +217,10 @@ nav ul li {
   background-color: #ecdfe7;
   padding: 20px;
   transition: 0.3s;
+}
+
+
+/* method */
+.method {
+  padding: 100px 0 50px;
 }
