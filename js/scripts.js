@@ -33,13 +33,13 @@ $(document).ready(function(){
 
 
     // box hover
-    $('.box').hover(
-        function() {
-            $(this).css('opacity', '0.6')
-        },
-        function() {
-            $(this).css('opacity', '1')
-        }
-    );
+    // $('.box').hover(
+    //     function() {
+    //         $(this).css('transform', 'rotateX(180deg)')
+    //     },
+    //     function() {
+    //         $(this).css('transform', 'rotateX(0deg)')
+    //     }
+    // );
 
 });

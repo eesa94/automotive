@@ -85,6 +85,11 @@ p {
   font-weight: 400;
 }
 
+.yellow {
+  color: #f9cd48;
+}
+
+
 
 /* navigation */
 nav {
@@ -162,10 +167,6 @@ nav ul li {
   font-weight: 400;
 }
 
-.initials {
-  color: #f9cd48;
-}
-
 .gallery-btn {
   width: 180px;
   font-size: 1.8rem;
@@ -213,14 +214,21 @@ nav ul li {
 
 .service-row {
   max-width: 1500px;
-  margin: 0 auto;
+  margin: 0 auto 20px;
 }
 
 .box {
-  height: 130px;
-  background-color: #ecdfe7;
-  padding: 20px;
+  height: 160px;
+  padding: 15px 5px;
+  background-color: #f9cd48;
+  border: 3px solid #000;
+  text-align: center;
   transition: 0.3s;
+}
+
+.box-header {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
 }
 
 
