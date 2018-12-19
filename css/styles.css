@@ -215,9 +215,24 @@ nav ul li {
   text-shadow: 3px 3px 1px #212529;
 }
 
+.tab {
+  color: white;
+}
+
 .service-row {
+  position: absolute;
+  left: 10%;
+  right: 10%;
   max-width: 1500px;
   margin: 0 auto 20px;
+}
+
+.front {
+  z-index: 10;
+}
+
+.back {
+  z-index: 5;
 }
 
 .box {
@@ -227,11 +242,17 @@ nav ul li {
   position: relative;
   height: 160px;
   padding: 15px 5px;
-  background-color: #f9cd48;
-  /* background-color: #48e0f9; */
   border: 3px solid #000;
   text-align: center;
   transition: 0.3s;
+}
+
+.performance-box {
+  background-color: #f9cd48;
+}
+
+.cosmetic-box {
+  background-color: #48e0f9;
 }
 
 .box-header {

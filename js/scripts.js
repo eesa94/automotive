@@ -32,10 +32,45 @@ $(document).ready(function(){
     });
 
 
+    // $('#cosmetic').click(function() {
+    //     $('.performance-row').css('display', 'none');
+    //     $('.cosmetic-row').css('display', 'flex');
+    // });
+    
+    // $('#performance').click(function() {
+    //     $('.cosmetic-row').css('display', 'none');
+    //     $('.performance-row').css('display', 'flex');
+    // });
+
+    $('#cosmetic').click(function() {
+        $('.performance-row').addClass('fadeOut').removeClass('fadeIn');
+        $('.cosmetic-row').addClass('fadeIn').removeClass('fadeOut');
+        $('.performance-row, .cosmetic-row').toggleClass('front');
+    });
+        
+    $('#performance').click(function() {
+        $('.cosmetic-row').addClass('fadeOut').removeClass('fadeIn');
+        $('.performance-row').addClass('fadeIn').removeClass('fadeOut');
+        $('.performance-row, .cosmetic-row').toggleClass('front');
+    });
+
     // box hover
-    $('.box').hover(
+    $('.performance-box').hover(
         function() {
             $(this).css('border', '3px solid #f9cd48').css('box-shadow', '3px 3px 2px #48e0f9');
+            $('.service-icon', this).css('opacity', '0.15');
+            $('.box-text', this).css('bottom', '30%').css('opacity', '1');
+        },
+        function() {
+            $(this).css('border', '3px solid #000').css('box-shadow', 'none');
+            $('.service-icon', this).css('opacity', '1');
+            $('.box-text', this).css('bottom', '0').css('opacity', '0');
+        }
+    );
+
+    $('.cosmetic-box').hover(
+        function() {
+            $(this).css('border', '3px solid #48e0f9').css('box-shadow', '3px 3px 2px #f9cd48');
             $('.service-icon', this).css('opacity', '0.15');
             $('.box-text', this).css('bottom', '30%').css('opacity', '1');
         },
