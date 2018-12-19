@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     // resize navbar on scroll
     $(window).scroll(function() {
-        if ($(this).scrollTop() > 400 && $(window).width() > 991) {
+        if ($(this).scrollTop() > 200 && $(window).width() > 991) {
             $('nav').css('height', '65px').css('background-color', 'rgba(0, 0, 0, 1)');
             $('.inner-menu').css('max-width', '1050px');
             $('.brand').css('font-size', '3rem');
@@ -35,10 +35,12 @@ $(document).ready(function(){
     // box hover
     $('.box').hover(
         function() {
+            $(this).css('border', '3px solid #f9cd48').css('box-shadow', '3px 3px 2px #48e0f9');
             $('.service-icon', this).css('opacity', '0.15');
             $('.box-text', this).css('bottom', '30%').css('opacity', '1');
         },
         function() {
+            $(this).css('border', '3px solid #000').css('box-shadow', 'none');
             $('.service-icon', this).css('opacity', '1');
             $('.box-text', this).css('bottom', '0').css('opacity', '0');
         }
