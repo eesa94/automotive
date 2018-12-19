@@ -18,6 +18,10 @@ a:hover {
   text-decoration: none;
 }
 
+.no-margin {
+  margin: 0;
+}
+
 .mb1 {
   margin-bottom: 10px;
 }
@@ -152,8 +156,8 @@ nav ul li {
 
 .hero-caption {
   position: absolute;
-  bottom: 300px;
-  right: 250px;
+  bottom: 32%;
+  right: 13%;
   color: #fff;
   font-weight: 400;
 }
@@ -180,7 +184,7 @@ nav ul li {
 
 /* about */
 .about {
-  height: 600px;
+  min-height: 600px;
   padding: 100px 0 50px;
 }
 
