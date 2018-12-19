@@ -33,13 +33,17 @@ $(document).ready(function(){
 
 
     // box hover
-    // $('.box').hover(
-    //     function() {
-    //         $(this).css('transform', 'rotateX(180deg)')
-    //     },
-    //     function() {
-    //         $(this).css('transform', 'rotateX(0deg)')
-    //     }
-    // );
+    $('.box').hover(
+        function() {
+            $('.service-icon', this).css('opacity', '0');
+            $('.box-header', this).css('opacity', '1');
+            $('.box-text', this).css('bottom', '40%').css('opacity', '1');
+        },
+        function() {
+            $('.service-icon', this).css('opacity', '1');
+            $('.box-header', this).css('opacity', '0');
+            $('.box-text', this).css('bottom', '0').css('opacity', '0');
+        }
+    );
 
 });

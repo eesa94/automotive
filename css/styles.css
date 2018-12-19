@@ -218,17 +218,39 @@ nav ul li {
 }
 
 .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
   height: 160px;
   padding: 15px 5px;
   background-color: #f9cd48;
   border: 3px solid #000;
   text-align: center;
-  transition: 0.3s;
 }
 
 .box-header {
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  top: 13%;
   font-family: 'Orbitron', sans-serif;
   font-weight: 700;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.service-icon {
+  transition: 0.3s;
+}
+
+.box-text {
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s;
 }
 
 
