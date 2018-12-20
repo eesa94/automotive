@@ -198,7 +198,7 @@ nav ul li {
 
 /* services */
 .services {
-  height: 1000px;
+  height: 950px;
   background: url("../img/gt86_crop.jpg");
   background-repeat: no-repeat;
 }
@@ -217,7 +217,7 @@ nav ul li {
 
 .button-row {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .tab {
