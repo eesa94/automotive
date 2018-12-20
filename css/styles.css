@@ -75,7 +75,7 @@ p {
   font-family: 'Orbitron', sans-serif;
   font-size: 4rem;
   font-weight: 700;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 
@@ -198,7 +198,7 @@ nav ul li {
 
 /* services */
 .services {
-  height: 900px;
+  height: 1000px;
   background: url("../img/gt86_crop.jpg");
   background-repeat: no-repeat;
 }
@@ -215,8 +215,22 @@ nav ul li {
   text-shadow: 3px 3px 1px #212529;
 }
 
+.button-row {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 .tab {
+  min-width: 110px;
+  padding: 7px 0;
   color: white;
+  border: 1px solid;
+  letter-spacing: 1.3px;
+}
+
+.tab-active {
+  background-color: #fff;
+  color: #000;
 }
 
 .service-row {
@@ -229,10 +243,6 @@ nav ul li {
 
 .front {
   z-index: 10;
-}
-
-.back {
-  z-index: 5;
 }
 
 .box {

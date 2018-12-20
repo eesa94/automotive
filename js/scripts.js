@@ -43,12 +43,16 @@ $(document).ready(function(){
     // });
 
     $('#cosmetic').click(function() {
+        $(this).addClass('tab-active');
+        $('#performance').removeClass('tab-active');
         $('.performance-row').addClass('fadeOut').removeClass('fadeIn');
         $('.cosmetic-row').addClass('fadeIn').removeClass('fadeOut');
         $('.performance-row, .cosmetic-row').toggleClass('front');
     });
         
     $('#performance').click(function() {
+        $(this).addClass('tab-active');
+        $('#cosmetic').removeClass('tab-active');
         $('.cosmetic-row').addClass('fadeOut').removeClass('fadeIn');
         $('.performance-row').addClass('fadeIn').removeClass('fadeOut');
         $('.performance-row, .cosmetic-row').toggleClass('front');
