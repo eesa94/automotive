@@ -42,24 +42,24 @@ $(document).ready(function(){
     //     $('.performance-row').css('display', 'flex');
     // });
 
-    $('#cosmetic').click(function() {
+    $('#performance').click(function() {
+        $(this).addClass('tab-active');
+        $('#engine').removeClass('tab-active');
+        $('.engine-row').addClass('fadeOut').removeClass('fadeIn');
+        $('.performance-row').addClass('fadeIn').removeClass('fadeOut');
+        $('.engine-row, .cosmetic-row').toggleClass('front');
+    });
+        
+    $('#engine').click(function() {
         $(this).addClass('tab-active');
         $('#performance').removeClass('tab-active');
         $('.performance-row').addClass('fadeOut').removeClass('fadeIn');
-        $('.cosmetic-row').addClass('fadeIn').removeClass('fadeOut');
-        $('.performance-row, .cosmetic-row').toggleClass('front');
-    });
-        
-    $('#performance').click(function() {
-        $(this).addClass('tab-active');
-        $('#cosmetic').removeClass('tab-active');
-        $('.cosmetic-row').addClass('fadeOut').removeClass('fadeIn');
-        $('.performance-row').addClass('fadeIn').removeClass('fadeOut');
-        $('.performance-row, .cosmetic-row').toggleClass('front');
+        $('.engine-row').addClass('fadeIn').removeClass('fadeOut');
+        $('.engine-row, .cosmetic-row').toggleClass('front');
     });
 
     // box hover
-    $('.performance-box').hover(
+    $('.engine-box').hover(
         function() {
             $(this).css('border', '3px solid #f9cd48').css('box-shadow', '3px 3px 2px #48e0f9');
             $('.service-icon', this).css('opacity', '0.15');
@@ -72,7 +72,7 @@ $(document).ready(function(){
         }
     );
 
-    $('.cosmetic-box').hover(
+    $('.performance-box').hover(
         function() {
             $(this).css('border', '3px solid #48e0f9').css('box-shadow', '3px 3px 2px #f9cd48');
             $('.service-icon', this).css('opacity', '0.15');
