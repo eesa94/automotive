@@ -104,7 +104,6 @@ p {
   margin-bottom: 40px;
 }
 
-
 .default-text {
   font-size: 1.6rem;
   font-family: 'Raleway', sans-serif;
@@ -113,6 +112,10 @@ p {
 
 .yellow {
   color: #f9cd48;
+}
+
+.white {
+  color: #fff;
 }
 
 
@@ -312,7 +315,7 @@ nav ul li {
 
 /* method */
 .method {
-  height: 950px;
+  min-height: 950px;
   padding: 100px 0 50px;
 }
 
@@ -366,3 +369,36 @@ nav ul li {
   color: #f9cd48;
 }
 
+
+/* instagram */
+.instagram {
+  height: 500px;
+  padding: 50px 0;
+  background-color: #131618;
+}
+
+.instagram-inner {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.ig-col {
+  padding-left: 9px;
+  padding-right: 9px;
+}
+
+.ig-image {
+  height: 90px;
+}
+
+#ig-image-1 {
+  background-image: url("../img/john-volante-416896-unsplash.jpg");
+}
+
+#ig-image-2 {
+  background-image: url("../img/john-volante-416896-unsplash.jpg");
+}
+
+#ig-image-3 {
+  background-image: url("../img/john-volante-416896-unsplash.jpg");
+}
