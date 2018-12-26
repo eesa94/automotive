@@ -3,6 +3,8 @@ html {
   font-size: 62.5%;
 }
 
+
+/* common elements */
 .container-fluid {
   padding-left: 0;
   padding-right: 0;
@@ -18,20 +20,8 @@ a:hover {
   text-decoration: none;
 }
 
-.no-margin {
-  margin: 0;
-}
-
-.mb1 {
-  margin-bottom: 10px;
-}
-
-.mb2 {
-  margin-bottom: 20px;
-}
-
-.mb3 {
-  margin-bottom: 30px;
+.btn.focus, .btn:focus {
+  box-shadow: none;
 }
 
 .overlay-light {
@@ -50,6 +40,24 @@ a:hover {
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+/* formatting */
+.no-margin {
+  margin: 0;
+}
+
+.mb1 {
+  margin-bottom: 10px;
+}
+
+.mb2 {
+  margin-bottom: 20px;
+}
+
+.mb3 {
+  margin-bottom: 30px;
 }
 
 
@@ -309,7 +317,7 @@ nav ul li {
 }
 
 .card-bg {
-  height: 202px;
+  height: 270px;
 }
 
 .stage-one {
@@ -336,4 +344,25 @@ nav ul li {
 
 .card-text {
   padding: 20px;
+  text-align: center;
 }
+
+.card-text p {
+  margin-bottom: 30px;
+}
+
+.card-btn {
+  min-width: 100px;
+  height: 35px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  background-color: #f9cd48;
+  transition: 0.3s;
+}
+
+.card-btn:hover {
+  background-color: #000;
+  color: #f9cd48;
+}
+
