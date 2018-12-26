@@ -34,6 +34,24 @@ a:hover {
   margin-bottom: 30px;
 }
 
+.overlay-light {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.overlay-medium {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.overlay-dark {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
 
 /* typography */
 .orbitron-4 {
@@ -155,12 +173,6 @@ nav ul li {
   height: 100vh;
 }
 
-.overlay {
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
-}
-
 .hero-caption {
   position: absolute;
   bottom: 32%;
@@ -203,11 +215,8 @@ nav ul li {
   background-repeat: no-repeat;
 }
 
-.overlay-dark {
-  height: 100%;
-  width: 100%;
+.services-inner {
   padding: 110px 0 0;
-  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .services-header {
@@ -295,19 +304,36 @@ nav ul li {
 
 /* method */
 .method {
+  height: 950px;
   padding: 100px 0 50px;
+}
+
+.card-bg {
+  height: 202px;
+}
+
+.stage-one {
+  background-image: url("../img/chad-kirchoff-202730-unsplash.jpg");
+}
+
+.stage-two {
+  background-image: url("../img/tim-mossholder-212029-unsplash.jpg");
+}
+
+.stage-three {
+  background-image: url("../img/john-volante-416896-unsplash.jpg");
 }
 
 .card {
   margin-bottom: 30px;
 }
 
-.card-title {
+.card-header {
   font-family: 'Orbitron', sans-serif;
   font-weight: 500;
-  margin: 20px 0;
+  color: #fff;
 }
 
 .card-text {
-  padding: 0 20px;
+  padding: 20px;
 }
