@@ -369,6 +369,10 @@ nav ul li {
   color: #f9cd48;
 }
 
+.active {
+  color: #f9cd48;
+}
+
 
 /* contact */
 .contact {
@@ -384,6 +388,10 @@ nav ul li {
 
 .contact-text {
   font-size: 1.2rem;
+}
+
+.tel-email {
+  margin-right: 4px;
 }
 
 .ig-col {
