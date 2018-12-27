@@ -51,31 +51,33 @@ $(document).ready(function(){
 
 
     // box hover
-    $('.engine-box').hover(
-        function() {
-            $(this).css('border', '3px solid #f9cd48').css('box-shadow', '3px 3px 2px #48e0f9');
-            $('.service-icon', this).css('opacity', '0.15');
-            $('.box-text', this).css('bottom', '30%').css('opacity', '1');
-        },
-        function() {
-            $(this).css('border', '3px solid #000').css('box-shadow', 'none');
-            $('.service-icon', this).css('opacity', '1');
-            $('.box-text', this).css('bottom', '0').css('opacity', '0');
-        }
-    );
+    if ($(window).width() > 768) {
+        $('.engine-box').hover(
+            function() {
+                $(this).css('border', '3px solid #f9cd48').css('box-shadow', '3px 3px 2px #48e0f9');
+                $('.service-icon', this).css('opacity', '0.15');
+                $('.box-text', this).css('bottom', '30%').css('opacity', '1');
+            },
+            function() {
+                $(this).css('border', '3px solid #000').css('box-shadow', 'none');
+                $('.service-icon', this).css('opacity', '1');
+                $('.box-text', this).css('bottom', '0').css('opacity', '0');
+            }
+        );
 
-    $('.performance-box').hover(
-        function() {
-            $(this).css('border', '3px solid #48e0f9').css('box-shadow', '3px 3px 2px #f9cd48');
-            $('.service-icon', this).css('opacity', '0.15');
-            $('.box-text', this).css('bottom', '30%').css('opacity', '1');
-        },
-        function() {
-            $(this).css('border', '3px solid #000').css('box-shadow', 'none');
-            $('.service-icon', this).css('opacity', '1');
-            $('.box-text', this).css('bottom', '0').css('opacity', '0');
-        }
-    );
+        $('.performance-box').hover(
+            function() {
+                $(this).css('border', '3px solid #48e0f9').css('box-shadow', '3px 3px 2px #f9cd48');
+                $('.service-icon', this).css('opacity', '0.15');
+                $('.box-text', this).css('bottom', '30%').css('opacity', '1');
+            },
+            function() {
+                $(this).css('border', '3px solid #000').css('box-shadow', 'none');
+                $('.service-icon', this).css('opacity', '1');
+                $('.box-text', this).css('bottom', '0').css('opacity', '0');
+            }
+        );
+    };
 
     // ig pictures
     $('.ig-image').hover(
