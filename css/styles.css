@@ -370,16 +370,20 @@ nav ul li {
 }
 
 
-/* instagram */
-.instagram {
-  height: 500px;
+/* contact */
+.contact {
+  min-height: 550px;
   padding: 50px 0;
   background-color: #131618;
 }
 
-.instagram-inner {
+.contact-inner {
   max-width: 70%;
   margin: 0 auto;
+}
+
+.contact-text {
+  font-size: 1.2rem;
 }
 
 .ig-col {
