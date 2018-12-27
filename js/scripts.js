@@ -32,16 +32,7 @@ $(document).ready(function(){
     });
 
 
-    // $('#cosmetic').click(function() {
-    //     $('.performance-row').css('display', 'none');
-    //     $('.cosmetic-row').css('display', 'flex');
-    // });
-    
-    // $('#performance').click(function() {
-    //     $('.cosmetic-row').css('display', 'none');
-    //     $('.performance-row').css('display', 'flex');
-    // });
-
+    // tabs
     $('#performance').click(function() {
         $(this).addClass('tab-active');
         $('#engine').removeClass('tab-active');
@@ -57,6 +48,7 @@ $(document).ready(function(){
         $('.engine-row').addClass('fadeIn').removeClass('fadeOut');
         $('.engine-row, .cosmetic-row').toggleClass('front');
     });
+
 
     // box hover
     $('.engine-box').hover(
