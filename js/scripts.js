@@ -77,4 +77,14 @@ $(document).ready(function(){
         }
     );
 
+    // ig pictures
+    $('.ig-image').hover(
+        function() {
+            $('.overlay', this).toggleClass('overlay-medium');
+        },
+        function() {
+            $('.overlay', this).toggleClass('overlay-medium');
+        }
+    )
+
 });

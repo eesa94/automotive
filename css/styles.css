@@ -391,6 +391,10 @@ nav ul li {
   height: 90px;
 }
 
+.ig-image .overlay {
+  transition: 0.3s;
+}
+
 #ig-image-1 {
   background-image: url("../img/Aimgain-StanceNation-Aero3.jpg");
 }
