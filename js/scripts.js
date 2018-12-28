@@ -2,16 +2,18 @@ $(document).ready(function(){
 
     // resize navbar on scroll
     $(window).scroll(function() {
-        if ($(this).scrollTop() > 200 && $(window).width() > 991) {
-            $('nav').css('height', '65px').css('background-color', 'rgba(0, 0, 0, 1)');
-            $('.inner-menu').css('max-width', '1050px');
-            $('.brand').css('font-size', '3rem');
-            $('.nav-link').css('font-size', '1.6rem');
-        } else {
-            $('nav').css('height', '80px').css('background-color', 'rgba(0, 0, 0, 0.60)');
-            $('.inner-menu').css('max-width', '1000px');
-            $('.brand').css('font-size', '3.5rem');
-            $('.nav-link').css('font-size', '1.8rem');
+        if ($(window).width() > 991) {
+            if ($(this).scrollTop() > 200) {
+                $('nav').css('height', '65px').css('background-color', 'rgba(0, 0, 0, 1)');
+                $('.inner-menu').css('max-width', '1050px');
+                $('.brand').css('font-size', '3rem');
+                $('.nav-link').css('font-size', '1.6rem');
+            } else {
+                $('nav').css('height', '80px').css('background-color', 'rgba(0, 0, 0, 0.60)');
+                $('.inner-menu').css('max-width', '1000px');
+                $('.brand').css('font-size', '3.5rem');
+                $('.nav-link').css('font-size', '1.8rem');
+            }
         }
     });
     
@@ -29,6 +31,29 @@ $(document).ready(function(){
             });
         }
         return false;
+    });
+
+
+    // Open/close nav menu
+    let navOpen = 0;
+
+    $('.nav-open').click(function() {
+        if (navOpen === 0) {
+            $(this).toggleClass('is-active');
+            $('.nav-menu').css('left', '0');
+            navOpen = 1;
+        }
+    else if (navOpen === 1) {
+        $(this).toggleClass('is-active');
+        $('.nav-menu').css('left', '-300px');
+        navOpen = 0;
+        }
+    });
+
+    $('.link').click(function() {
+        $('.nav-open').toggleClass('is-active');
+        $('.nav-menu').css('left', '-300px');
+        navOpen = 0;
     });
 
 

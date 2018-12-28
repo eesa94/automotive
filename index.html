@@ -16,6 +16,7 @@
     <!-- Custom styles -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/mediaqueries.css">
+    <link rel="stylesheet" href="css/hamburgers.css">
     <link href="https://fonts.googleapis.com/css?family=Orbitron:400,500,700|Raleway:400;600" rel="stylesheet">
 
 
@@ -24,6 +25,32 @@
   <body data-spy="scroll" data-target="nav">
 
     <!-- navigation xs to lg -->
+    <nav class="mobile-navbar d-flex d-lg-none align-items-center justify-content-between">
+        <h3 class="brand mobile-brand orbitron-7">Apex Automotive</h3>
+        <button class="hamburger hamburger--slider nav-open" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+      </nav>
+  
+      <div class="nav-menu d-lg-none">
+        <ul class="link-list">
+          <li class="link-list-item">
+            <a href="#" class="link">Home</a>
+          </li>
+          <li class="link-list-item">
+            <a href="#" class="link">About</a>
+          </li>
+          <li class="link-list-item">
+            <a href="#" class="link">Contact</a>
+          </li>
+          <li class="link-list-item">
+            <a href="#" class="link">My Account</a>
+          </li>
+        </ul>
+      </div>
+    
 
     <!-- navigation lg and higher -->
     <nav class="d-none d-lg-block">
@@ -336,6 +363,7 @@
               </div>
             </div>
           </div>
+        </div>
       </div>
     </div>
 
