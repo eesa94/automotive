@@ -282,8 +282,7 @@ nav ul li {
 /* services */
 .services {
   height: 950px;
-  background: url("../img/gt86_crop.jpg");
-  background-repeat: no-repeat;
+  background-image: url("../img/gt86_crop.jpg");
 }
 
 .services-inner {

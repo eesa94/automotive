@@ -17,4 +17,12 @@
     .box-text {
         display: none;
     }
+
+    .card-bg {
+        height: 200px;
+    }
+
+    .contact-inner {
+        max-width: 100%;
+    }
 }
