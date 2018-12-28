@@ -21,7 +21,7 @@ $(document).ready(function(){
     // smooth scrolling
     var $root = $('html, body');
 
-    $('.nav-link, .brand').click(function() {
+    $('.nav-link, .brand, .link, .mobile-brand').click(function() {
         var href = $.attr(this, 'href');
         if (href != undefined && href != '#') {
             $root.animate({

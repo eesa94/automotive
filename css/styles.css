@@ -194,7 +194,7 @@ nav ul li {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #343a40;
+  background-color: rgba(0, 0, 0, 1);
   padding-left: 10px;
   z-index: 100;
 }
@@ -218,6 +218,22 @@ nav ul li {
 
 .link-list {
   list-style-type: none;
+}
+
+.link-list-item {
+  margin-bottom: 8px;
+}
+
+.link {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #343a40;
+  transition: 0.3s;
+}
+
+.link:hover {
+  color: #f9cd48;
 }
 
 
