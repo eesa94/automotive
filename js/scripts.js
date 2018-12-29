@@ -76,7 +76,7 @@ $(document).ready(function(){
 
 
     // box hover
-    if ($(window).width() > 768) {
+    if ($(window).width() > 767) {
         $('.engine-box').hover(
             function() {
                 $(this).css('border', '3px solid #f9cd48').css('box-shadow', '3px 3px 2px #48e0f9');
