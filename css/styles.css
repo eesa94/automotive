@@ -406,6 +406,7 @@ nav ul li {
 }
 
 .card-text {
+  min-height: 200px;
   padding: 20px;
   text-align: center;
 }
@@ -415,8 +416,9 @@ nav ul li {
 }
 
 .card-btn {
-  min-width: 100px;
+  width: 45%;
   height: 35px;
+  margin: 0 auto 20px;
   font-family: 'Orbitron', sans-serif;
   font-size: 1.3rem;
   font-weight: 500;
