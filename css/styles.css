@@ -435,6 +435,22 @@ nav ul li {
   color: #f9cd48;
 }
 
+.carousel-item {
+  text-align: center;
+  height: 400px;
+}
+
+.carousel-indicators li,
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: black;
+}
+
+.carousel-indicators .active {
+  background-color: #f9cd48
+}
+
+
 
 /* contact */
 .contact {
