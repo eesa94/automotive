@@ -81,7 +81,7 @@ $(document).ready(function(){
             function() {
                 $(this).css('border', '3px solid #f9cd48').css('box-shadow', '3px 3px 2px #48e0f9');
                 $('.service-icon', this).css('opacity', '0.15');
-                $('.box-text', this).css('bottom', '25%').css('opacity', '1');
+                $('.box-text', this).css('bottom', '30%').css('opacity', '1');
             },
             function() {
                 $(this).css('border', '3px solid #000').css('box-shadow', 'none');
