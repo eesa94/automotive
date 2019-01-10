@@ -444,9 +444,9 @@ nav ul li {
 .carousel-item {
   width: 70%;
   margin: 0 auto;
-  height: 280px;
-  padding: 50px 15px;
-  background-color: grey;
+  height: 230px;
+  padding: 20px 15px;
+  background-color: #edebeb;
   text-align: center;
 }
 
