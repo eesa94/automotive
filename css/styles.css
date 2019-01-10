@@ -127,6 +127,10 @@ p {
   color: #fff;
 }
 
+.black {
+  color: #000;
+}
+
 .hover-white:hover {
   color: #fff;
 }
@@ -438,18 +442,28 @@ nav ul li {
 }
 
 .carousel-item {
+  width: 70%;
+  margin: 0 auto;
+  height: 280px;
+  padding: 50px 15px;
+  background-color: grey;
   text-align: center;
-  height: 400px;
 }
 
-.carousel-indicators li,
-.carousel-control-prev,
-.carousel-control-next {
+.carousel-indicators {
+  bottom: -30px;
+}
+
+.carousel-indicators li {
   background-color: black;
 }
 
 .carousel-indicators .active {
   background-color: #f9cd48
+}
+
+.feedback-text {
+  font-size: 1.2rem;
 }
 
 
